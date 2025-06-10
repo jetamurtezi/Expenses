@@ -13,6 +13,10 @@ namespace Expenses.Controllers
             _logger = logger;
         }
 
+        public IActionResult Expenses() { 
+            return View();
+        }
+
         public IActionResult Index()
         {
             return View();
